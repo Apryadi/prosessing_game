@@ -34,7 +34,7 @@ function setup() {
   createCanvas(500, 500);
   ballColor = color(0);
   racketColor = color(0);
-  wallColors = color(0);
+  wallColors = color(255,0,0);
   ballX = width / 4;
   ballY = height / 5;
 }
