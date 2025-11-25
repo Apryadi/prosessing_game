@@ -190,7 +190,7 @@ function wallMover(i) {
 function wallDrawer(i) {
   let wall = walls[i];
   rectMode(CORNER);
-  fill(wallColors);
+  fill(255, 0, 0);
 
   rect(wall.x, 0, wall.w, wall.y);
   rect(wall.x, wall.y + wall.h, wall.w, height - (wall.y + wall.h));
